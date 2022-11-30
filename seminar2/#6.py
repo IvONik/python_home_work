@@ -10,7 +10,7 @@ s = '.'
 s1 =','
 sum = 0
 i = 0
-for i in range(len(n)):
+for i in range(len(n)): 
     if n[i] != s and n[i] != s1:
         sum += int(n[i])
 print(sum)
