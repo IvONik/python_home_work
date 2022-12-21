@@ -8,7 +8,7 @@ import math
 
 pi = math.pi
 print('Pi = ', pi)
-d= float(input("Введите точность в формате 0.001 "))
+d = float(input("Введите точность в формате 0.001 "))
 # d = 0.001
 print(f'Accuracy = {d}')
 count = 0

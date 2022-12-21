@@ -12,7 +12,7 @@ def show_spravochnik_consol():
     with open("spravochnik.csv", encoding='utf-8') as file_read:
         data = csv.reader(file_read, delimiter = ",")
         for row in data:
-            print(row)
+            print(*row)
             list_spravochnik.append(row)
 
 
